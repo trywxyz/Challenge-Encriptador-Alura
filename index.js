@@ -81,7 +81,7 @@ function resetarCampos() {
     document.getElementById('instrucao_criptografada').innerHTML = `Digite um texto que você deseja criptografar ou descriptografar.`;
     document.getElementById('copiar_texto').hidden = true;
     document.getElementById('textCriptografarDescriptografarCopiarTexto').value = '';
-    criptografadoTrue = false; // Resetando o estado para false
+    criptografadoTrue = false;
 }
 
 
