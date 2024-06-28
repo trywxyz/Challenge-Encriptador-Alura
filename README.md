@@ -10,9 +10,7 @@ Funcionalidades
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-bittencourt-4a263a265/)
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trywxyz.github.io/Challenge-Encriptador-Alura/)
-<a href="https://trywxyz.github.io/Challenge-Encriptador-Alura/" target="_blank">
-    <img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="portfolio">
-</a>
+
 
 ## 🛠 Habilidades
 Javascript, HTML, CSS, React
