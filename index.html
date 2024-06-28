@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Encriptador</title>
+</head>
+
+<body>
+    <header class=" encriptador__menu__nav">
+        <nav>
+            <a href="./index.html" class="encriptador__menu__nav__link">
+                <img src="./img/Vector.png" alt="Imagem livro alura" class=" encriptador__menu__nav__image__alura">
+                <img src="https://static.vecteezy.com/system/resources/previews/018/246/021/non_2x/studying-book-illustration-free-png.png"
+                    alt="Imagem alura" class=" encriptador__menu__nav__image__livros">
+            </a>
+        </nav>
+    </header>
+    <main class="encriptador__main">
+        <p class="encriptador__menu__bemVindo">
+            <strong>Bem vindo ao Encriptador</strong>
+        </p>
+
+        <br>
+        <br>
+
+        <div class="encriptador__menu">
+            <img src="./img/Frame 1.png" alt="frame De Aviso" class="encriptador__menu__aviso">
+            <br>
+            <input type="text" id="textCriptografarDescriptografarCopiarTexto"
+                class="encriptador__menu__digiteSeuTexto__input" placeholder="Digite seu texto aqui!">
+                
+
+            <div class="encriptador__menu__divisao">
+
+                <div class="encriptador__main__areaDeCopia" id="texto_criptografado">
+
+                    <img src="./img/High quality products 1 1.svg" alt="Imagem procurando" id="imagemProcurando">
+                    <p id="mensagem_criptografada"> <strong>Nenhuma mensagem encontrada</strong></p>
+                    <p id="instrucao_criptografada" class="encriptador__main__areaDeCopia__digiteUmTexto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <button id="copiar_texto" class="encriptador__menu__botao__copiar_texto"
+                    hidden onclick="copiar_texto()">Copiar
+                        texto</button>
+                </div>
+
+
+                <div class="encriptador__menu__botoes">
+                    <button id="criptografar" class="encriptador__menu__botao__criptografar"
+                        onclick="criptografar()">Criptografar</button>
+                    <button id="descriptografar" class="encriptador__menu__botao__descriptografar"
+                        onclick="descriptografar()">Descriptografar</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer class="encriptador__main__footer">
+        <p class="encriptador__main__footer">Vitor Bittencourt, Encriptador criado em 2024!</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
